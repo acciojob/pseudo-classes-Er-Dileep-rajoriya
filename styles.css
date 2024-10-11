@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+        :root {
+            background-color: rgb(135, 206, 235); /* Set background color */
+        }
+
+        article p:first-child {
+            color: white; /* White text */
+            background-color: black; /* Black background */
+            padding: 10px; /* Padding for better visibility */
+        }
+
+        article p:nth-child(2) {
+            color: inherit; /* Standard text color */
+        }
+
+        article p:last-child {
+            color: red; /* Red text */
+        }
+
+        ul {
+            list-style-type: none; /* Remove default bullet points */
+            padding: 0; /* Remove default padding */
+        }
+
+        ul li {
+            background-color: gray; /* Default background color */
+            padding: 10px; /* Padding for list items */
+            width: 50%; /* Set width */
+            margin: 5px 0; /* Margin between items */
+        }
+
+        ul li:nth-child(odd) {
+            background-color: white; /* Odd items have white background */
+        }
+
+        ul li:first-child,
+        ul li:last-child {
+            font-size: 22px; /* Font size for first and last items */
+        }
+
+        ul li:nth-last-child(3) {
+            background-color: pink; /* Pink background for third-to-last item */
+        }
